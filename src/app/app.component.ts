@@ -17,7 +17,7 @@ export class AppComponent {
     }
     else{
       i=(a*1.8+32);
-      this.title=i.toPrecision(2);
+      this.title=i.toFixed(2);
       this.n=this.title + "°F";
     }
     
